@@ -1,0 +1,12 @@
+{
+  "name": "provider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "typescript-to-lua": "^0.40.1"
+  },
+  "files": ["index.lua", "declarations/**/*.d.ts"],
+  "types": "declarations/index.d.ts"
+}
